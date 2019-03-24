@@ -1,0 +1,251 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#wrap {
+  display: none;
+  border: 1px solid gray;
+  width: 100%;
+  padding: 3px;
+  background-image: url("https://images.pexels.com/photos/131634/pexels-photo-131634.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  opacity: 0.9;
+  border-radius: 25px;
+}
+
+#top-bar {
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  left: 0;
+  margin: auto;
+  margin-top: 1%;
+  width: 80%;
+}
+
+.top-link {
+  border-right: 1px solid gray;
+  float: left;
+  padding: 7px;
+  background-color: #00539C;
+  font-size: 20px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  width: 18%;
+  text-align: center;
+  opacity: 0.9;
+  border-radius: 25px;
+}
+
+#left-bar {
+  position:fixed;
+  left: 1%;
+  margin-top: 5%;
+  width: 12%;  
+}
+
+.left-link { 
+  margin: 2px;
+  border-bottom: 1px solid gray;
+  padding: 7px;
+  background-color: #00539C;
+  font-size: 16px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0.9;
+  border-radius: 25px;
+}
+
+#right-bar {  
+  position: fixed;
+  margin-top: 5%;
+  right: 1%;
+  width: 12%;
+}
+
+.right-link {
+  margin: 2px;
+  border-bottom: 1px solid gray;
+  padding: 7px;
+  background-color: #00539C;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0.9;
+  border-radius: 25px;
+}
+
+#center {
+  border: 1px solid gray;
+  margin: auto;
+  margin-top: 5%;
+  width: 70%;
+  padding: 1%;
+  height: 500px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  scroll-behavior: smooth;
+  opacity: 0.9;
+  overflow: auto;
+  border-radius: 25px;
+  background-color: powderblue;
+}
+
+#footer {
+  margin: auto;
+  margin-top: 1%;
+  border-right: 1px solid gray;
+  padding: 7px;
+  background-color: #00539C;
+  font-size: 20px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  width: 72%;
+  text-align: center;
+  opacity: 0.9;
+  border-radius: 25px;
+  color: yellow;
+}
+
+div.top-link:hover, div.left-link:hover, div.right-link:hover {
+  background-color: #EE0069;
+}
+
+a {
+  color: #FFD700;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00004E;
+}
+
+.table-styling {
+  border: 1px solid black;
+  width: 50%;
+}
+
+.table-styling th {
+  text-align:left;
+}
+
+.table-styling tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+.table-styling tr:nth-child(odd) {
+  background-color: white;
+}
+
+.table-styling tr:hover {
+  background-color: gray;
+}
+
+.table-styling thead tr th {
+  background-color: gray;
+}
+
+h2, h3 {
+  background-color: #A9A9A9;
+}
+
+h3 {
+  width: 30%;
+}
+
+h2:hover, h3:hover {
+  background-color: #00539C;
+  color: yellow;
+}
+
+p:hover, ul:hover{
+  background-color: white;
+}
+
+code {
+  font-size: 18px;
+  color: red;
+}
+
+.redtext {
+  color: red;
+}
+
+.bluetext {
+  color: blue;
+}
+
+.html-text, .html-code {
+  font-size: 20px;
+}
+
+.html-text:hover {
+  background-color: gold;
+}
+
+div.formpage { 
+  position: fixed;
+  left: 1%;
+  right: 1%;
+  top: 1%;
+  bottom: 1%;
+  display: block;
+  background-color: gray;
+	padding: 20px;
+  background-image: url("https://images.pexels.com/photos/131634/pexels-photo-131634.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  opacity: 0.9;
+  border-radius: 25px;
+}
+	
+#formtable {
+  margin: auto;
+  margin-top: 10%;
+  border : 1px solid gray;
+	border-spacing: 10px;
+	background-color: powderblue;
+}
+		
+#formtable td, #formtable th {
+  padding : 10px;
+	background-color: #E6E6FA;
+}
+		
+input:hover[type=text], input:hover[type=password] ,input:hover[type=button] {
+  background-color: #f5f5f5;
+}
+		
+#formtable th#th1, #formtable td#td3 {
+  text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+		
+#formtable td#td1, #formtable td#td2 {
+  text-align: right;
+	font-weight: bold;
+}
+
+input[type=text], input[type=password] {
+  width: 90%;
+}
+	
+input[type=button] {
+  width: 60%;
+}
+
+#user {
+  position: fixed;
+  margin-left: 57%;
+  margin-top: 1%;
+  width: 10%;
+  padding: 3px;
+  background-color: dodgerblue;
+  border-radius: 25px;
+  z-index: -1;
+}
+#demo {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  color: yellow;
+}
