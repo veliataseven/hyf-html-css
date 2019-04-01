@@ -1,0 +1,19 @@
+1.
+
+-->> $ touch .file-name
+-->> $ ls -a
+
+2.
+
+-->> $ mkdir -p these/folders/are/just/for/fun
+
+3.
+
+-->> 18 fun
+
+4.
+
+-->> $ echo -n "test" > fun
+-->> $ echo "another test" >> fun
+-->> $ cat fun
+-->> testanother test
